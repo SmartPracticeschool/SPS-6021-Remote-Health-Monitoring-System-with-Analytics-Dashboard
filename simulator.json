@@ -1,0 +1,28 @@
+{
+  "deviceTypes": [
+    {
+      "id": "arduino",
+      "running": true,
+      "events": [
+        {
+          "id": "arduino_simulation",
+          "frequency": {
+            "repeat": 20,
+            "every": "minute"
+          },
+          "json": "{\n  \"age\": random(0, 100),\n  \"temperature\": random(0, 200),\n  \"sys\": random(0, 200),\n  \"dia\": random(0, 200),\n  \"pulse\": random(0, 200)\n}\n"
+        }
+      ],
+      "devices": [
+        {
+          "id": "1234",
+          "generated": false
+        }
+      ],
+      "managed": {
+        "enabled": false
+      }
+    }
+  ],
+  "APIKey": "a-43wsk6-5o8avisdtc"
+}
